@@ -13,6 +13,8 @@
 
 Route::get('/page', 'PagesController@index');
 
+Route::get('/info', 'PagesController@info');
+
 Route::get('/', function () {
     return view('welcome');
 });
