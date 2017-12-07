@@ -6,7 +6,7 @@
   <title>Document</title>
     <h1>Laravel!!!</h1>
     <div style="text-align: center">
-      <a href="test">test</a>
+      <a href="http://www.google.com">Link</a>
     </div>
 </head>
 <body>
