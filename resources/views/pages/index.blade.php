@@ -1,16 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-    <h1>Laravel!!!</h1>
-    <div style="text-align: center">
-      <a href="test">test</a>
-    </div>
-</head>
-<body>
+@extends('layouts.app')
 
-</body>
-</html>
+@section('content')
+<h1>This is the index page</h1>
+
+@endsection
