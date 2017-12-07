@@ -19,7 +19,7 @@ class PagesController extends Controller
       $data = array  (
     'clothes' => 't-shirt',
     'size'    => 'medium',
-    'colors'   => ['red', 'blue', 'white', 'green']
+    'colors'   => ['red', 'blue', 'white', 'green', 'teal', 'zest']
 );
       return view('pages.services')->with($data);
     }

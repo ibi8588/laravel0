@@ -3,9 +3,9 @@
 @section('content')
 <h2>This is the index page</h2>
 @if(count($colors) > 0)
-  <ul>
+  <ul class="list-group">
   @foreach($colors as $color)
-    <li> {{$color}}</li>
+    <li class="list-group-item"> {{$color}}</li>
   @endforeach
 </ul>
 @endif
