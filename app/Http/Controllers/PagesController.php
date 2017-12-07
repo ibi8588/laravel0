@@ -11,6 +11,7 @@ class PagesController extends Controller
       return view('pages.index', compact('title'));
     }
     public function info () {
-      return view('pages.info');
+      $title = 'Welcome to info about ibi8588';
+      return view('pages.info')->with('title', $title);;
     }
 }
