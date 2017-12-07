@@ -12,6 +12,15 @@ class PagesController extends Controller
     }
     public function info () {
       $title = 'Welcome to info about ibi8588';
-      return view('pages.info')->with('title', $title);;
+      return view('pages.info')->with('title', $title);
+    }
+
+    public function services () {
+      $data = array  (
+    'clothes' => 't-shirt',
+    'size'    => 'medium',
+    'colors'   => ['red', 'blue', 'white', 'green']
+);
+      return view('pages.services')->with($data);
     }
 }
